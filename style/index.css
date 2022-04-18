@@ -1,0 +1,30 @@
+
+#navbar{
+    display: flex;
+    height: 50px;
+    width: 30%;
+    font-weight: bold;
+    justify-content: space-around;
+    margin-left: 70%;
+}
+.size{
+    max-width: 70%;
+}
+#items{
+    width: 100%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+}
+.align{
+    margin-left: 78px;
+}
+.prc{
+    margin-left: 95px;
+}
+#item_count{
+    margin-top: -5%;
+    color: teal;
+    font-size: 20px;
+}

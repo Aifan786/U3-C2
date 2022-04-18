@@ -1,0 +1,22 @@
+
+#cart{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+}
+.size{
+    max-width: 70%;
+}
+.align{
+    margin-left: 78px;
+}
+.prc{
+    margin-left: 100px;
+}
+#remove{
+    margin-left: 88px;
+}
+#checkout{
+    margin-top: 5%;
+    margin-left: 5%;
+}
